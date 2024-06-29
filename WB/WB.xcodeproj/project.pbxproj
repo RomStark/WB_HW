@@ -11,7 +11,56 @@
 		002522902C1F94FC001AFBB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025228F2C1F94FC001AFBB3 /* ContentView.swift */; };
 		002522922C1F94FF001AFBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002522912C1F94FF001AFBB3 /* Assets.xcassets */; };
 		002522952C1F94FF001AFBB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002522942C1F94FF001AFBB3 /* Preview Assets.xcassets */; };
+		002522C12C24E6D7001AFBB3 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002522C02C24E6D7001AFBB3 /* ProfileScreen.swift */; };
+		002522C32C24E6E4001AFBB3 /* ChatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002522C22C24E6E4001AFBB3 /* ChatsScreen.swift */; };
+		002522C62C24E6FC001AFBB3 /* ContactsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002522C52C24E6FC001AFBB3 /* ContactsScreen.swift */; };
+		002522C82C24E70C001AFBB3 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002522C72C24E70C001AFBB3 /* ContactDetailView.swift */; };
+		002522CB2C24E740001AFBB3 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002522CA2C24E740001AFBB3 /* Contact.swift */; };
+		002522CD2C24E754001AFBB3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002522CC2C24E754001AFBB3 /* MainTabView.swift */; };
+		0085029F2C2F5E830076251B /* ChatsIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085029E2C2F5E830076251B /* ChatsIntents.swift */; };
+		008502A22C2F618A0076251B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502A12C2F618A0076251B /* Router.swift */; };
+		008502AC2C2FA45A0076251B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008502AB2C2FA45A0076251B /* WidgetKit.framework */; };
+		008502AE2C2FA45A0076251B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008502AD2C2FA45A0076251B /* SwiftUI.framework */; };
+		008502B12C2FA45A0076251B /* WBWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502B02C2FA45A0076251B /* WBWidgetBundle.swift */; };
+		008502B32C2FA45A0076251B /* WBWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502B22C2FA45A0076251B /* WBWidgetLiveActivity.swift */; };
+		008502B52C2FA45A0076251B /* WBWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502B42C2FA45A0076251B /* WBWidget.swift */; };
+		008502B82C2FA45D0076251B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008502B72C2FA45D0076251B /* Assets.xcassets */; };
+		008502BA2C2FA45D0076251B /* WBWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 008502B62C2FA45A0076251B /* WBWidget.intentdefinition */; };
+		008502BB2C2FA45D0076251B /* WBWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 008502B62C2FA45A0076251B /* WBWidget.intentdefinition */; };
+		008502BE2C2FA45D0076251B /* WBWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 008502A92C2FA45A0076251B /* WBWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		008502C52C2FA8E40076251B /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502C32C2FA8800076251B /* Provider.swift */; };
+		008502C82C2FA9300076251B /* SimplyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502C62C2FA8FB0076251B /* SimplyEntry.swift */; };
+		008502CC2C2FA9720076251B /* WBWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502CA2C2FA95A0076251B /* WBWidgetEntryView.swift */; };
+		008502CD2C2FAA450076251B /* SimplyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502C62C2FA8FB0076251B /* SimplyEntry.swift */; };
+		008502CE2C2FAA710076251B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002522CA2C24E740001AFBB3 /* Contact.swift */; };
+		008502D12C2FAB610076251B /* SmallWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502CF2C2FAB530076251B /* SmallWidgetView.swift */; };
+		008502D42C2FAD450076251B /* MediumWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502D22C2FAD2F0076251B /* MediumWidgetView.swift */; };
+		008502D72C2FB02E0076251B /* LargeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008502D52C2FAFF90076251B /* LargeWidgetView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008502BC2C2FA45D0076251B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002522822C1F94FB001AFBB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008502A82C2FA4590076251B;
+			remoteInfo = WBWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		008502C22C2FA45D0076251B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				008502BE2C2FA45D0076251B /* WBWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0025228A2C1F94FC001AFBB3 /* WB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WB.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +68,29 @@
 		0025228F2C1F94FC001AFBB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		002522912C1F94FF001AFBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002522942C1F94FF001AFBB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		002522C02C24E6D7001AFBB3 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		002522C22C24E6E4001AFBB3 /* ChatsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsScreen.swift; sourceTree = "<group>"; };
+		002522C52C24E6FC001AFBB3 /* ContactsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsScreen.swift; sourceTree = "<group>"; };
+		002522C72C24E70C001AFBB3 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		002522CA2C24E740001AFBB3 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		002522CC2C24E754001AFBB3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		0085029E2C2F5E830076251B /* ChatsIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsIntents.swift; sourceTree = "<group>"; };
+		008502A12C2F618A0076251B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		008502A92C2FA45A0076251B /* WBWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WBWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		008502AB2C2FA45A0076251B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		008502AD2C2FA45A0076251B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		008502B02C2FA45A0076251B /* WBWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBWidgetBundle.swift; sourceTree = "<group>"; };
+		008502B22C2FA45A0076251B /* WBWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		008502B42C2FA45A0076251B /* WBWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBWidget.swift; sourceTree = "<group>"; };
+		008502B62C2FA45A0076251B /* WBWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WBWidget.intentdefinition; sourceTree = "<group>"; };
+		008502B72C2FA45D0076251B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		008502B92C2FA45D0076251B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008502C32C2FA8800076251B /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		008502C62C2FA8FB0076251B /* SimplyEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyEntry.swift; sourceTree = "<group>"; };
+		008502CA2C2FA95A0076251B /* WBWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBWidgetEntryView.swift; sourceTree = "<group>"; };
+		008502CF2C2FAB530076251B /* SmallWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidgetView.swift; sourceTree = "<group>"; };
+		008502D22C2FAD2F0076251B /* MediumWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidgetView.swift; sourceTree = "<group>"; };
+		008502D52C2FAFF90076251B /* LargeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +101,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		008502A62C2FA4590076251B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008502AE2C2FA45A0076251B /* SwiftUI.framework in Frameworks */,
+				008502AC2C2FA45A0076251B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				0025228C2C1F94FC001AFBB3 /* WB */,
+				008502AA2C2FA45A0076251B /* Frameworks */,
+				008502AF2C2FA45A0076251B /* WBWidget */,
 				0025228B2C1F94FC001AFBB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				0025228A2C1F94FC001AFBB3 /* WB.app */,
+				008502A92C2FA45A0076251B /* WBWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +135,10 @@
 		0025228C2C1F94FC001AFBB3 /* WB */ = {
 			isa = PBXGroup;
 			children = (
+				008502A02C2F61780076251B /* Services */,
+				0085029D2C2F5E610076251B /* Intents */,
+				002522C92C24E71B001AFBB3 /* Models */,
+				002522BF2C24E6C4001AFBB3 /* Screens */,
 				0025228D2C1F94FC001AFBB3 /* WBApp.swift */,
 				0025228F2C1F94FC001AFBB3 /* ContentView.swift */,
 				002522912C1F94FF001AFBB3 /* Assets.xcassets */,
@@ -67,6 +155,86 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		002522BF2C24E6C4001AFBB3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				002522C42C24E6E8001AFBB3 /* Contacts */,
+				002522C02C24E6D7001AFBB3 /* ProfileScreen.swift */,
+				002522C22C24E6E4001AFBB3 /* ChatsScreen.swift */,
+				002522CC2C24E754001AFBB3 /* MainTabView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		002522C42C24E6E8001AFBB3 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				002522C52C24E6FC001AFBB3 /* ContactsScreen.swift */,
+				002522C72C24E70C001AFBB3 /* ContactDetailView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		002522C92C24E71B001AFBB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				002522CA2C24E740001AFBB3 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0085029D2C2F5E610076251B /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				0085029E2C2F5E830076251B /* ChatsIntents.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		008502A02C2F61780076251B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				008502A12C2F618A0076251B /* Router.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		008502AA2C2FA45A0076251B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				008502AB2C2FA45A0076251B /* WidgetKit.framework */,
+				008502AD2C2FA45A0076251B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		008502AF2C2FA45A0076251B /* WBWidget */ = {
+			isa = PBXGroup;
+			children = (
+				008502C92C2FA94A0076251B /* Views */,
+				008502B02C2FA45A0076251B /* WBWidgetBundle.swift */,
+				008502B22C2FA45A0076251B /* WBWidgetLiveActivity.swift */,
+				008502C32C2FA8800076251B /* Provider.swift */,
+				008502C62C2FA8FB0076251B /* SimplyEntry.swift */,
+				008502B42C2FA45A0076251B /* WBWidget.swift */,
+				008502B62C2FA45A0076251B /* WBWidget.intentdefinition */,
+				008502B72C2FA45D0076251B /* Assets.xcassets */,
+				008502B92C2FA45D0076251B /* Info.plist */,
+			);
+			path = WBWidget;
+			sourceTree = "<group>";
+		};
+		008502C92C2FA94A0076251B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				008502CA2C2FA95A0076251B /* WBWidgetEntryView.swift */,
+				008502CF2C2FAB530076251B /* SmallWidgetView.swift */,
+				008502D22C2FAD2F0076251B /* MediumWidgetView.swift */,
+				008502D52C2FAFF90076251B /* LargeWidgetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +245,34 @@
 				002522862C1F94FC001AFBB3 /* Sources */,
 				002522872C1F94FC001AFBB3 /* Frameworks */,
 				002522882C1F94FC001AFBB3 /* Resources */,
+				008502C22C2FA45D0076251B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				008502BD2C2FA45D0076251B /* PBXTargetDependency */,
 			);
 			name = WB;
 			productName = WB;
 			productReference = 0025228A2C1F94FC001AFBB3 /* WB.app */;
 			productType = "com.apple.product-type.application";
+		};
+		008502A82C2FA4590076251B /* WBWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008502BF2C2FA45D0076251B /* Build configuration list for PBXNativeTarget "WBWidgetExtension" */;
+			buildPhases = (
+				008502A52C2FA4590076251B /* Sources */,
+				008502A62C2FA4590076251B /* Frameworks */,
+				008502A72C2FA4590076251B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBWidgetExtension;
+			productName = WBWidgetExtension;
+			productReference = 008502A92C2FA45A0076251B /* WBWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +285,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					002522892C1F94FC001AFBB3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					008502A82C2FA4590076251B = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -116,6 +306,7 @@
 			projectRoot = "";
 			targets = (
 				002522892C1F94FC001AFBB3 /* WB */,
+				008502A82C2FA4590076251B /* WBWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +321,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		008502A72C2FA4590076251B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008502B82C2FA45D0076251B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +337,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				002522902C1F94FC001AFBB3 /* ContentView.swift in Sources */,
+				008502CD2C2FAA450076251B /* SimplyEntry.swift in Sources */,
+				002522C12C24E6D7001AFBB3 /* ProfileScreen.swift in Sources */,
+				008502A22C2F618A0076251B /* Router.swift in Sources */,
+				002522C82C24E70C001AFBB3 /* ContactDetailView.swift in Sources */,
+				002522CD2C24E754001AFBB3 /* MainTabView.swift in Sources */,
 				0025228E2C1F94FC001AFBB3 /* WBApp.swift in Sources */,
+				008502BB2C2FA45D0076251B /* WBWidget.intentdefinition in Sources */,
+				0085029F2C2F5E830076251B /* ChatsIntents.swift in Sources */,
+				002522C62C24E6FC001AFBB3 /* ContactsScreen.swift in Sources */,
+				002522C32C24E6E4001AFBB3 /* ChatsScreen.swift in Sources */,
+				002522CB2C24E740001AFBB3 /* Contact.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008502A52C2FA4590076251B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008502B52C2FA45A0076251B /* WBWidget.swift in Sources */,
+				008502D72C2FB02E0076251B /* LargeWidgetView.swift in Sources */,
+				008502D12C2FAB610076251B /* SmallWidgetView.swift in Sources */,
+				008502CC2C2FA9720076251B /* WBWidgetEntryView.swift in Sources */,
+				008502B12C2FA45A0076251B /* WBWidgetBundle.swift in Sources */,
+				008502B32C2FA45A0076251B /* WBWidgetLiveActivity.swift in Sources */,
+				008502CE2C2FAA710076251B /* Contact.swift in Sources */,
+				008502C52C2FA8E40076251B /* Provider.swift in Sources */,
+				008502D42C2FAD450076251B /* MediumWidgetView.swift in Sources */,
+				008502C82C2FA9300076251B /* SimplyEntry.swift in Sources */,
+				008502BA2C2FA45D0076251B /* WBWidget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008502BD2C2FA45D0076251B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008502A82C2FA4590076251B /* WBWidgetExtension */;
+			targetProxy = 008502BC2C2FA45D0076251B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		002522962C1F94FF001AFBB3 /* Debug */ = {
@@ -262,6 +497,7 @@
 		002522992C1F94FF001AFBB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +527,7 @@
 		0025229A2C1F94FF001AFBB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +554,60 @@
 			};
 			name = Release;
 		};
+		008502C02C2FA45D0076251B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X58ZVA4AH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WBWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.WB.WBWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		008502C12C2FA45D0076251B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X58ZVA4AH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WBWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.WB.WBWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +625,15 @@
 			buildConfigurations = (
 				002522992C1F94FF001AFBB3 /* Debug */,
 				0025229A2C1F94FF001AFBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008502BF2C2FA45D0076251B /* Build configuration list for PBXNativeTarget "WBWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008502C02C2FA45D0076251B /* Debug */,
+				008502C12C2FA45D0076251B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
