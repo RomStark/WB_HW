@@ -9,10 +9,10 @@ import SwiftUI
 
 @main
 struct WBApp: App {
-    @StateObject private var router: Router = .init()
+    @StateObject private var router: Router = .shared
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            MainTabView(router: router)
                 .environmentObject(router)
         }
     }
